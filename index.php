@@ -20,7 +20,7 @@
 	<div class="main">
 		<div id="text1" class="main">
 		<p>Facebook helps you connect and share with the people in your life.</p>
-		<img src="<?php echo getenv('url') ?>/a.png" alt="Girl in a jacket" width="500" height="600">
+		<img src="<?php echo getenv('url') ?>/facebook2.png">
 		</div>
 		<div id="create-acc" class="main">Create an account</div>
 		<div id="quick" class="main">It's quick and easy</div>
@@ -99,14 +99,14 @@
 			<option >2018</option>
 			<option >2019</option>
 			<option >2020</option>
-			</select><a href="#"><img src="question.png"></a> <br>
+			</select><a href="#"><img src="<?php echo getenv('url') ?>/question.png"></a> <br>
 			</div>
 			<div id ="Gender" class="main">Gender<br>
 			<img src="facebook1.png" style="display:none" width="0" height="0">
 			<input type="radio" id="r-b" name="sex" value="Female" />Female
 			<input type="radio" id="r-b" name="sex" value="Male" />Male
 			<input type="radio" id="r-b" name="sex" value="Custom" />Custom 
-			<a href="#"><img src="question.png"></a> <br>
+			<a href="#"><img src="<?php echo getenv('url') ?>/question.png"></a> <br>
 			<p id="terms">By clicking Sign Up, you agree to our <a href="#">Terms, Data Policy</a>  and <a href="#">Cookie Policy.</a>  You may receive SMS notifications from us and can opt out at any time.</p>
 			<input type="submit" class="signup" value="Sign Up" />
 			<p id="page"><a href="#">Create a Page </a> for a celebrity, band or business.</p>
@@ -114,16 +114,10 @@
 	</div>
 	<div class="bottom">
 		<a href="#"><div id="lang" class="bottom">
-			English(UK) &nbsp&nbsp&nbsp&nbspहिन्दी&nbsp&nbsp&nbsp&nbsp اردو&nbsp&nbsp&nbsp&nbsp ਪੰਜਾਬੀ &nbsp&nbsp&nbsp&nbspবাংলা&nbsp&nbsp&nbsp&nbsp ગુજરાતી&nbsp&nbsp&nbsp&nbsp मराठी &nbsp&nbsp&nbsp&nbspதமிழ் &nbsp&nbsp&nbsp&nbspతెలుగు&nbsp&nbsp&nbsp&nbsp മലയാളം &nbsp&nbsp&nbsp&nbspಕನ್ನಡ <img src="plus.png"><br><hr id="line"></div><div id="link" class="bottom">
+			English(UK) &nbsp&nbsp&nbsp&nbspहिन्दी&nbsp&nbsp&nbsp&nbsp اردو&nbsp&nbsp&nbsp&nbsp ਪੰਜਾਬੀ &nbsp&nbsp&nbsp&nbspবাংলা&nbsp&nbsp&nbsp&nbsp ગુજરાતી&nbsp&nbsp&nbsp&nbsp मराठी &nbsp&nbsp&nbsp&nbspதமிழ் &nbsp&nbsp&nbsp&nbspతెలుగు&nbsp&nbsp&nbsp&nbsp മലയാളം &nbsp&nbsp&nbsp&nbspಕನ್ನಡ <img src="<?php echo getenv('url') ?>/plus.png"><br><hr id="line"></div><div id="link" class="bottom">
 			<br>    Sign Up &nbsp&nbsp&nbsp&nbspLog In &nbsp&nbsp&nbsp&nbspMessenger &nbsp&nbsp&nbsp&nbspFacebook Lite&nbsp&nbsp&nbsp&nbsp Watch&nbsp&nbsp&nbsp&nbsp People&nbsp&nbsp&nbsp&nbspPage  categories&nbsp&nbsp&nbsp&nbspPlaces&nbsp&nbsp&nbsp&nbspGames&nbsp&nbsp&nbsp&nbspLocations&nbsp&nbsp&nbsp&nbspMarketplace&nbsp&nbsp&nbsp&nbspGroups&nbsp&nbsp&nbsp&nbspInstagram&nbsp&nbsp&nbsp&nbspLocal&nbsp&nbsp&nbsp&nbspFundraisers&nbsp&nbsp&nbsp&nbspServices&nbsp&nbsp&nbsp&nbspAbout&nbsp&nbsp&nbsp&nbspCreate ad&nbsp&nbsp&nbsp&nbspCreate Page&nbsp&nbsp&nbsp&nbspDevelopers&nbsp&nbsp&nbsp&nbspCareers&nbsp&nbsp&nbsp&nbspPrivacy&nbsp&nbsp&nbsp&nbspCookies&nbsp&nbsp&nbsp&nbspAdChoices&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTermsHelp&nbsp&nbsp&nbsp&nbsp Settings&nbsp&nbsp&nbsp&nbsp Activity log</div>
 		</a>
 
 	</div>
 </body>
 </html>
-<?php
-print getenv('b') . "\n";
-
-
-?>
-
